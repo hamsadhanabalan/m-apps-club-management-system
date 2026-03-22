@@ -25,3 +25,39 @@ SUPER ADMIN
 <img width="1897" height="811" alt="image" src="https://github.com/user-attachments/assets/f6ed38f9-1b57-4e83-9f11-86b65e1aab29" />
 
 
+📦 Dependencies Required
+🔧 Core Dependencies
+
+Install these using:
+
+npm install next react react-dom
+🎨 UI & Styling
+npm install tailwindcss postcss autoprefixer
+npm install framer-motion
+npm install lucide-react
+🗄️ Database (MongoDB)
+npm install mongoose
+🔐 Authentication
+npm install next-auth
+npm install bcryptjs
+🌐 API & Utilities
+npm install axios
+
+(optional but useful for API calls instead of fetch)
+
+⚙️ Dev Dependencies (IMPORTANT)
+npm install -D typescript @types/node @types/react @types/react-dom
+
+If using Tailwind setup:
+
+npx tailwindcss init -p
+📁 Environment Variables
+
+Create a .env.local file:
+
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_secret_key
+NEXTAUTH_URL=http://localhost:3000
+▶️ Run the Project
+npm run dev
+
